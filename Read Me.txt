@@ -1,0 +1,16 @@
+Group Members:-
+Wajeeha Yasin
+Maryam Sulemani
+Duaa Zahra Khan
+
+
+To play/execute the game go to Console Application 1 and then debug and then click on ConsoleApplication1.exe to play the game,
+------------------------------------------------------------------------------------------
+In order to load and compile the project, setup SDL2 and all its libraries by going into
+project-> properties and then VCC directories chose all the include folders of the libraries.
+Then go to linker and in additional libraries add all the libraries residing in x86 folder.
+After that navigate to input and type in the names of all the libraries included in additional
+dependencies. Now copy all the .dll files from the lib folder of the incuded libraries and copy
+them into the debug folder of the project containing the .exe file.
+Our setup for compilation is complete. Now after loading the project in VCC just build and run it in order to
+compile it.
